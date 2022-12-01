@@ -36,7 +36,7 @@ export default {
     height: 64px;
 
     gap: 12px;
-    padding: 12px 24px;
+    padding: 40px 24px;
 
     outline: none;
     border: 1px solid $color-white;
