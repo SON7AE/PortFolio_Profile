@@ -18,6 +18,6 @@ export default {};
     padding: 24px 32px;
 
     background-color: $color-black;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 </style>
