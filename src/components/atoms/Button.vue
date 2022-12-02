@@ -1,14 +1,15 @@
 <template>
     <button @click="moveToLink" class="button">
-        <img :src="`src/assets/images/${resume.icon}.png`" alt="이력서 이미지" class="button__image" />
-        <span class="button__label">{{ resume.label }}</span>
+        <!-- <img :src="`/assets/images/${button.icon}.png`" alt="이력서 이미지" class="button__image" /> -->
+        <div class="button__image" :data-theme="button.icon"></div>
+        <span class="button__label">{{ button.label }}</span>
     </button>
 </template>
 
 <script>
 export default {
     props: {
-        resume: {
+        button: {
             type: Object,
             required: false,
         },
@@ -48,6 +49,17 @@ export default {
     &__image {
         width: 50px;
         height: 50px;
+        background-size: contain;
+
+        &[data-theme='youtube'] {
+            background-image: url('~/assets/images/youtube.png');
+        }
+        &[data-theme='notion'] {
+            background-image: url('~/assets/images/notion.png');
+        }
+        &[data-theme='tistory'] {
+            background-image: url('~/assets/images/tistory.png');
+        }
     }
     &__label {
         font-family: 'Montserrat', sans-serif;

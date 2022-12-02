@@ -3,6 +3,7 @@
         <LayoutTemplate>
             <Header />
             <Section01 />
+            <Section02 />
         </LayoutTemplate>
     </div>
 </template>
@@ -11,9 +12,10 @@
 import LayoutTemplate from '~/components/atoms/LayoutTemplate.vue';
 import Header from '~/components/mocules/Header.vue';
 import Section01 from '~/components/organisms/Section01.vue';
+import Section02 from '../components/organisms/Section02.vue';
 
 export default {
-    components: { LayoutTemplate, Header, Section01 },
+    components: { LayoutTemplate, Header, Section01, Section02 },
 };
 </script>
 

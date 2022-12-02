@@ -1,29 +1,24 @@
 <template>
-    <div class="layout">
-        <slot></slot>
+    <div class="main">
+        <Section02_MainTitle />
     </div>
 </template>
 
 <script>
-export default {};
+import Section02_MainTitle from '~/components/atoms/section02/MainTitle.vue';
+
+export default {
+    components: { Section02_MainTitle },
+};
 </script>
 
 <style lang="scss" scoped>
 @import '~/assets/styles/main.scss';
 
-.layout {
+.main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    width: calc(100% - 48px);
-    max-width: 1920px;
-
-    padding: 24px 32px;
-    gap: 120px;
-
-    background-color: $color-black;
-    border-radius: 8px;
 }
 </style>

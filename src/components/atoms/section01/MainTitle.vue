@@ -17,15 +17,15 @@ export default {};
     align-items: center;
     justify-content: center;
 
-    margin-top: 200px;
+    margin-top: 100px;
 
     &__image {
         width: 200px;
         height: 200px;
     }
     &__title {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 900;
+        font-family: 'SF Pro Display', sans-serif;
+        font-weight: 800;
         font-size: 10rem;
 
         color: $color-white;

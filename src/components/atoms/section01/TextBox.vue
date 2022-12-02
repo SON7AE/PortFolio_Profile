@@ -31,7 +31,7 @@ export default {
     justify-content: center;
 
     &__text {
-        font-family: 'Nanum Gothic', sans-serif;
+        font-family: 'Pretendard-Regular';
         font-size: 20px;
 
         color: $color-white;

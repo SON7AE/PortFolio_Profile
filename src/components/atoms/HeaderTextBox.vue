@@ -35,7 +35,8 @@ export default {
     align-items: flex-start;
     justify-content: center;
 
-    font-family: 'Roboto', sans-serif;
+    font-family: 'San Francisco';
+    font-weight: 500;
     font-size: 16px;
 
     line-height: 1.4;

@@ -6,7 +6,7 @@
             <Section01_TextBox :text="subTitle" :theme="'gray'" />
         </div>
         <div class="main__button-box">
-            <Button v-for="resume in resumes" :key="resume.icon" :resume="resume" />
+            <Button v-for="button in buttonList" :key="button.label" :button="button" />
         </div>
     </div>
 </template>
@@ -21,7 +21,7 @@ export default {
     setup() {
         const title = `안녕하세요, 웹 프론트엔드 개발자(Web Front-End Developer) '박성재'입니다. <br /> 2년차 개발자이며, LG U+ / KT 등 대기업 SI 업무와 크리에이터 관련 커뮤니티 자사서비스 개발 경험이 있습니다.`;
         const subTitle = `Hello, I'm 'SungJae Park', a Web Front-End Developer. <br /> As a 2nd year developer, I have experience in SI work for large corporations such as LG U+ / KT and community own service development related to creators.`;
-        const resumes = [
+        const buttonList = [
             {
                 icon: 'youtube',
                 label: 'YOUTUBE',
@@ -39,7 +39,7 @@ export default {
         return {
             title,
             subTitle,
-            resumes,
+            buttonList,
         };
     },
 };
