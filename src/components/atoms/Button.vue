@@ -10,7 +10,7 @@ export default {
     props: {
         resume: {
             type: Object,
-            required: true,
+            required: false,
         },
     },
     setup() {

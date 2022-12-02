@@ -6,15 +6,15 @@
             <Section01_TextBox :text="subTitle" :theme="'gray'" />
         </div>
         <div class="main__button-box">
-            <Button v-for="resume in resumes" :key="resume.label" :resume="resume"> </Button>
+            <Button v-for="resume in resumes" :key="resume.icon" :resume="resume" />
         </div>
     </div>
 </template>
 
 <script>
+import Button from '~/components/atoms/Button.vue';
 import Section01_MainTitle from '~/components/atoms/section01/MainTitle.vue';
 import Section01_TextBox from '~/components/atoms/section01/TextBox.vue';
-import Button from '~/components/atoms/Button.vue';
 
 export default {
     components: { Section01_MainTitle, Section01_TextBox, Button },
