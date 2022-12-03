@@ -29,9 +29,9 @@ export default {};
         font-size: 1em;
     }
     &__mainTitle {
-        font-family: 'SF Pro Display', sans-serif;
-        font-weight: 800;
-        font-size: 8em;
+        font-family: 'GmarketSansMedium';
+        font-weight: 700;
+        font-size: 6em;
     }
     &__subTitle {
         font-family: 'San Francisco';

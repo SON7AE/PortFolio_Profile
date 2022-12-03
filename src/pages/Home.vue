@@ -27,8 +27,10 @@ export default {
     align-items: center;
     justify-content: center;
 
-    width: calc(100% - 80px);
+    width: 100%;
+
     padding: 40px;
+    margin: auto;
 
     background-color: $color-gray;
 }

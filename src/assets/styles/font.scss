@@ -8,8 +8,12 @@
 // font-family: 'Nanum Gothic', sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 
-// font-family: 'SF Pro Display', sans-serif;
-@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'Pretendard-Regular';

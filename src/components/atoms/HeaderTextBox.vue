@@ -35,7 +35,7 @@ export default {
     align-items: flex-start;
     justify-content: center;
 
-    font-family: 'San Francisco';
+    font-family: 'GmarketSansMedium';
     font-weight: 500;
     font-size: 16px;
 

@@ -24,8 +24,8 @@ export default {};
         height: 200px;
     }
     &__title {
-        font-family: 'SF Pro Display', sans-serif;
-        font-weight: 800;
+        font-family: 'GmarketSansMedium';
+        font-weight: 700;
         font-size: 10rem;
 
         color: $color-white;
